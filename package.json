@@ -26,5 +26,6 @@
   "homepage": "https://github.com/cmargroff/stepmania-lights-js#readme",
   "directories": {
     "lib": "lib"
-  }
+  },
+  "keywords": ["stepmania","outfox","sextet","stream"]
 }
