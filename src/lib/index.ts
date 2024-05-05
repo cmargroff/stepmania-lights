@@ -9,7 +9,7 @@ export const autoConnect = (connection: string) => {
     case "WIN32PIPE":
       return new StepmaniaNamedPipe(options[0])
     case "FIFO":
-      return new StepmaniaFIFO(options)
+      return new StepmaniaFIFO(options[0])
     case "SERIAL":
     case "WIN32SERIAL":
       return new StepmaniaWin32Serial(options)
