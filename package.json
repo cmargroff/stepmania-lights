@@ -1,6 +1,6 @@
 {
   "name": "stepmania-lights",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Stepmania sextet lighting library for NodeJS",
   "main": "lib/index.js",
   "repository": {
