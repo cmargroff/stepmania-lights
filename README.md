@@ -35,6 +35,7 @@ The event names are:
   `"p2Extended2"`,
   `"p2Extended3"`
 
+#### On Windows
 ```js
 import { autoConnect } from 'stepmania-lights'
 
@@ -53,6 +54,24 @@ stepmania.on("marquee", (val) => {
 })
 ```
 
+#### On Linux
+```js
+import { autoConnect } from 'stepmania-lights'
+
+const PIPE_NAME = "StepMania-Lights-SextetStream"
+
+const PIPE_PATH = "/usr/local/games/stepmania/Data/" + PIPE_NAME
+
+const stepmania = autoConnect("FIFO:" + PIPE_PATH) 
+
+...
+
+```
+
 ## Todo
-- Linux support
+- ~~Linux support~~
 - Support more connection types
+  - ~~FIFO~~
+  - EXTIO
+  - EXPORT
+  - Win32Serial
