@@ -1,11 +1,11 @@
 {
   "name": "stepmania-lights",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Stepmania sextet lighting library for NodeJS",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cmargroff/stepmania-lights-js.git"
+    "url": "git+https://github.com/cmargroff/stepmania-lights.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,9 +21,9 @@
   },
   "types": "./lib/index.d.ts",
   "bugs": {
-    "url": "https://github.com/cmargroff/stepmania-lights-js/issues"
+    "url": "https://github.com/cmargroff/stepmania-lights/issues"
   },
-  "homepage": "https://github.com/cmargroff/stepmania-lights-js#readme",
+  "homepage": "https://github.com/cmargroff/stepmania-lights#readme",
   "directories": {
     "lib": "lib"
   },
